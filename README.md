@@ -1,70 +1,55 @@
-🌾 Crop Yield Prediction
-📌 Overview
+# 🌾 **Crop Yield Prediction**
 
-This project simulates agricultural data and builds a deep learning regression model using TensorFlow to predict crop yield (tons/hectare).
+## 📌 **Overview**
+This project simulates agricultural data and builds a **deep learning regression model** using **:contentReference[oaicite:0]{index=0}** to predict crop yield (**tons/hectare**).  
 
-It demonstrates how machine learning can support agricultural decision-making and precision farming.
+It demonstrates how **machine learning** can support **agricultural decision-making** and **precision farming**.
 
-🎯 Features
+---
 
-Simulated agricultural dataset
+## 🎯 **Features**
+- ✅ **Simulated agricultural dataset**  
+- ✅ **Neural network regression model**  
+- ✅ **Model evaluation using MAE**  
+- ✅ **Visualization of predicted vs actual yield**
 
-Neural network regression model
+---
 
-Model evaluation using MAE
+## 📊 **Input Features**
+- **Soil Quality**  
+- **Rainfall**  
+- **Temperature**  
+- **Fertilizer Use**  
+- **Pesticide Use**  
 
-Visualization of predicted vs actual yield
+**Target Variable:** **Crop Yield (tons/hectare)**
 
-📊 Input Features
+---
 
-Soil Quality
+## 🧠 **Model Architecture**
+- **Dense Layer:** 64 units, ReLU activation  
+- **Dense Layer:** 32 units, ReLU activation  
+- **Output Layer:** 1 unit  
 
-Rainfall
+**Loss Function:** MSE  
+**Evaluation Metric:** MAE  
+**Optimizer:** Adam  
 
-Temperature
+---
 
-Fertilizer Use
+## 🛠️ **Technologies**
+- **Python**  
+- **TensorFlow (Keras)**  
+- **NumPy**  
+- **Scikit-learn**  
+- **Matplotlib**
 
-Pesticide Use
+---
 
-Target: Crop Yield (tons/hectare)
+## 🚀 **How to Run**
 
-🧠 Model Architecture
-
-Dense (64, ReLU)
-
-Dense (32, ReLU)
-
-Dense (1 output)
-
-Loss: MSE
-Metric: MAE
-Optimizer: Adam
-
-🛠 Technologies
-
-Python
-
-TensorFlow
-
-NumPy
-
-Scikit-learn
-
-Matplotlib
-
-🚀 How to Run
+```bash
 git clone https://github.com/yourusername/crop-yield-prediction.git
 cd crop-yield-prediction
 pip install -r requirements.txt
 python crop_yield_model.py
-
-🔮 Future Improvements
-
-Use real agricultural datasets
-
-Add R² and RMSE metrics
-
-Save and load trained model
-
-Deploy as web application
