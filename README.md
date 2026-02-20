@@ -1,7 +1,7 @@
 # 🌾 **Crop Yield Prediction**
 
 ## 📌 **Overview**
-This project simulates agricultural data and builds a **deep learning regression model** using **:contentReference[oaicite:0]{index=0}** to predict crop yield (**tons/hectare**).  
+This project simulates agricultural data and builds a **deep learning regression model** using **TensorFlow** to predict crop yield (**tons/hectare**).  
 
 It demonstrates how **machine learning** can support **agricultural decision-making** and **precision farming**.
 
